@@ -6,7 +6,7 @@ export default function TransactionChart({expense = 100, income = 100}){
         labels: ["Income", "Expense"],
         colors: ["#213ebf","#FD5E53"],
         chart: {
-          width: "50px",
+          width: "60px",
         },
         states: {
           hover: {
@@ -50,7 +50,7 @@ export default function TransactionChart({expense = 100, income = 100}){
     options={options}
     series={[income, expense]}
     type="pie"
-    width={"100%"}
-    height={"100%"}
+    width={"150%"}
+    height={"150%"}
      />
 }
